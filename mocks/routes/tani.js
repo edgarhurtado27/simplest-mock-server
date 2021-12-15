@@ -1,3 +1,6 @@
+const { sessions, forbbiden, internalError } = require("../data/tani-sessions");
+
+
 const tanistuff = [
   {
     id: 1,
@@ -20,12 +23,26 @@ module.exports = [
       },
       {
         id: "error",
-        response: {
-          status: 403,
-          body: {
-            message: "Forbbiden",
-          },
-        },
+        response: forbbiden
+      },
+    ],
+  },
+  {
+    id: "get-tani-sessions",
+    url: "/vi/projects/:projectId/sessions",
+    method: "GET",
+    variants: [
+      {
+        id: "success",
+        response: sessions
+      },
+      {
+        id: "error-forbbiden",
+        response: forbbiden
+      },
+      {
+        id: "error-internal",
+        response: internalError 
       },
     ],
   },
