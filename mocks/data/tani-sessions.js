@@ -14,6 +14,19 @@ const sessions = {
   ]     
 }
 
+const project = {
+  status: 200,
+  body: {
+    "startsAt": "2021-10-11T05:00:00Z",
+    "state": "ACTIVE",
+    "subscriptionType": "SUBSCRIPTION",
+    "templates": [],
+    "type": "FULL_SERVICE",
+    "usabilityStudy": false,
+    "webcams": true
+  }
+}
+
 const forbbiden = {
   status : 403,
   body : "Forbbiden"
@@ -28,5 +41,6 @@ const internalError = {
 module.exports = {
   sessions,
   forbbiden,
-  internalError
+  internalError,
+  project
 }

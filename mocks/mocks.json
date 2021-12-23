@@ -4,7 +4,8 @@
     "routesVariants": [
       "add-headers:enabled", 
       "get-tani:success",
-      "get-tani-sessions:success"
+      "get-tani-sessions:success",
+      "get-tani-project:success"
     ]
   },
   {
