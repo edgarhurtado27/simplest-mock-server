@@ -2,14 +2,18 @@ const sessions = {
   status: 200,
   body: [
     {
-        "date": "2021-12-14T11:36:07.962230Z",
-        "sessionName": "hmHyspcA",
-        "sessionLink": null
+      "sessionName": "IDI w/ Terry G.",
+      "startDate": "11:00am",
+      "endDate": "12:00pm",
+      "sessionLink": "someURL",
+      "status": "In Progress"
     },
     {
-        "date": "2021-12-14T12:06:07.962230Z",
-        "sessionName": "GSjeBRnm",
-        "sessionLink": null
+      "sessionName": "IDI w/ Edgar H.",
+      "startDate": "3:00pm",
+      "endDate": "4:00pm",
+      "sessionLink": "someURL",
+      "status": "In Progress"
     }
   ]     
 }
