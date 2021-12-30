@@ -21,13 +21,17 @@ const sessions = {
 const project = {
   status: 200,
   body: {
-    "startsAt": "2021-10-11T05:00:00Z",
-    "state": "ACTIVE",
-    "subscriptionType": "SUBSCRIPTION",
-    "templates": [],
-    "type": "FULL_SERVICE",
-    "usabilityStudy": false,
-    "webcams": true
+    "id":12,
+    "name":"VI Integration",
+    "type": "InterVu",
+    "description":"Project Description",
+    "startsAt":"2022-02-01T11:36:07.962230Z",
+    "endsAt":"2022-02-02T11:36:07.962230Z",
+    "numberOfSessions":17,
+    "salesforceId":"#0000001",
+    "webcams":true,
+    "state":"ACTIVE",
+    "usabilityStudy": false
   }
 }
 
